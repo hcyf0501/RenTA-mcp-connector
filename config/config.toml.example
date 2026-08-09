@@ -1,0 +1,11 @@
+# Alternative direct Codex CLI configuration. Replace <CONNECTOR_ROOT> with
+# this repository's absolute path, then merge the blocks into your Codex config.
+
+[mcp_servers.renta-platform]
+command = "node"
+args = ["<CONNECTOR_ROOT>/mcp/server.mjs"]
+default_tools_approval_mode = "approve"
+
+[[skills.config]]
+path = "<CONNECTOR_ROOT>/skills/renta-escalation/SKILL.md"
+enabled = true

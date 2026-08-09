@@ -1,0 +1,22 @@
+# Per-user connection settings and credentials
+config/.env
+config/config.toml
+.env
+
+# Local runtime output
+*.log
+proxy.log
+node_modules/
+paper-demo-*/
+test-output/
+
+# Credentials and certificates
+*.pem
+*.key
+certs/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

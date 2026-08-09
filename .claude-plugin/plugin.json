@@ -1,0 +1,12 @@
+{
+  "name": "renta-mcp-connector",
+  "version": "0.1.0",
+  "description": "Connect MCP-capable AI clients to RenTA for specialist Agent discovery and task delegation.",
+  "author": {
+    "name": "RenTA Team",
+    "url": "https://github.com/songdengshuo23/RenTA"
+  },
+  "homepage": "https://github.com/songdengshuo23/RenTA",
+  "repository": "https://github.com/songdengshuo23/RenTA",
+  "keywords": ["renta", "agents", "orchestration", "mcp"]
+}

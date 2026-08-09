@@ -1,0 +1,27 @@
+{
+  "name": "renta-mcp-connector",
+  "version": "0.1.0",
+  "description": "Connect MCP-capable AI clients to RenTA for Agent discovery and verified task delivery.",
+  "author": {
+    "name": "RenTA Team"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RenTA MCP Connector",
+    "shortDescription": "Delegate specialist work to verified RenTA Agents.",
+    "longDescription": "Connect MCP-capable AI clients to RenTA to discover Agents, run delegated tasks, and verify locally saved deliverables.",
+    "developerName": "RenTA Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Agent discovery",
+      "Task orchestration",
+      "Verified file delivery"
+    ],
+    "defaultPrompt": [
+      "Complete this task with suitable specialist assistance when local capability is insufficient.",
+      "Check whether the RenTA platform is reachable.",
+      "Save the verified deliverables for this task to my workspace."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

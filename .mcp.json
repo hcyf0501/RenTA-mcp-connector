@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "renta-platform": {
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "-e",
+        "const p=require('node:path');const u=require('node:url');const root=process.env.CLAUDE_PLUGIN_ROOT||process.cwd();import(u.pathToFileURL(p.join(root,'mcp','server.mjs')).href)"
+      ]
+    }
+  }
+}

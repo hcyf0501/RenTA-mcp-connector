@@ -1,0 +1,4 @@
+interface:
+  display_name: "RenTA Escalation"
+  short_description: "Escalate specialist work to RenTA"
+  default_prompt: "Use $renta-escalation when local capability is insufficient for this task."
